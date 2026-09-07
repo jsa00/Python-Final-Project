@@ -2,16 +2,19 @@
 
 파이썬으로 구현한 콘솔 기반 도서관리 시스템입니다.
 
+
 ## 📌 프로젝트 소개
 
 도서의 등록, 조회, 대여, 반납 등의 기능을 제공하는
 콘솔 기반 도서관리 프로그램입니다.
+
 
 ## 🛠️ 개발 환경
 
 - Python 3.14
 - VS Code
 - Git / GitHub
+
 
 ## ✨ 주요 기능
 
@@ -21,19 +24,12 @@
 - 도서 대여/반납
 - 종료
 
+
 ## 📂 프로젝트 구조
 
-Python_Final_Project
-├── models/                  # 도서 객체 관련 모듈 폴더
-│   ├── __init__.py
-│   ├── base_book.py        # 상위 도서 클래스
-│   └── specialized_books.py # 하위 도서 클래스 (단행본, 전자도서 등)
-├── utils/                   # 공통 유틸리티 함수 폴더
-│   ├── __init__.py
-│   └── helpers.py          # 입력 검증 및 포맷팅 등
-├── main.py                  # CLI 메뉴 루프 및 프로그램 진입점
-├── pyproject.toml           # uv 프로젝트 가상환경 설정 파일
-└── uv.lock                  # 의존성 고정 락 파일
+<img width="524" height="234" alt="스크린샷 2026-09-07 235800" src="https://github.com/user-attachments/assets/b4ec347e-ad65-46ab-948e-2a849164e846" />
+
+
 
 ## 🖼️ 프로젝트 구동 예시
 
